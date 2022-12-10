@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website.</title>
+    
+
+    <style>
+        *{
+    padding: 0;;;;;;;;;;;;;;;;;;;;
+    margin: 0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    font-family: sans-serif;;;;;;;;;;;;;;;;;;;;
+}
+
+
+.navbarishu{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;;;;;;;;;;;;;;;;;;
+    align-items: center;;;;;;;;;;;;;
+    justify-content: center;;;;;;
+    position: sticky;;;;;;;;;;;;;;;
+    top: 0px;;;;;;;;;;;;;;;;;;
+}
+.navbar-leftishu{
+    margin-right: 200px;;;;;;;;;;;;;;;;;;;
+}
+.navbar-rightishu{
+    margin-left: 200px;
+}
+.nav-ulishu{
+    display: flex;
+    flex-direction: row;;;;;;;;;;;;;;;;;;;;
+    list-style: none;;;;;;;;;;;;;;;;;;;;;;;;;
+}
+.nav-linkishu{
+    margin-right:30px;
+    font-weight: lighter;;;;;;;;;;;;;;;;;
+    font-size: small;;;;;;;;;;;;;;;;;;;
+}
+.nav-link:hoverishu{
+    color:rgb(0, 106, 255);;;;;;;;;;;;;;;;;;;;;;
+    font-weight:500;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+}
+
+.nav-logo-leftishu{
+    width : 35px;
+}
+.nav-logo-rightishu{
+    width : 25px;
+    margin-right: 5px;;;;;;;;;;;;;;;;;;;;;;
+    border-radius: 100%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+}
+.nav-logo-name-leftishu{
+    position: relative;;;;;;;;;;;;;;;;
+    bottom:10px;;;;;;;;;;;;;;;;;;;;;;
+    left: 5px;;;;;;;;;;;;;;;
+    font-weight: 500;;;;;;;;;;;;;;;;;;;;;
+}
+.nav-logo-name-rightishu{
+    font-size:small;
+}
+
+
+
+
+
+
+
+.navbar2ishu{
+    display: flex;
+    flex-direction: row;;;;;;;;;;;;;;;;;;;;
+    align-items: center;;;;;;;;;;;;;;
+    justify-content: center;;;;;;;;;;;;;;;;;;
+    margin-top: 40px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+}
+.navbar2-div1ishu{
+    display: flex;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    flex-direction: row;;;;;;;;;;;;;;
+    margin-right: 100px;;;;;;;;;;
+}
+.navbar2-divishu{
+    margin-right: 100px;
+}
+.navbar2-div1-div1ishu{
+    border:1px solid grey;;;;;;;;;;;;;;;;;;
+    border-radius: 3px;
+    padding:3px;
+    margin-right: 10px;;;;;;;;;;;;;;;;;;;;
+    margin-left: 10px;;;;;;;;;;;;;;;;;;;;;;
+}
+.product-designingishu{
+    color:#0162ff;
+    font-weight: 200;
+    font-size: 0.7rem;
+
+}
+.find-jobishu{
+    background-color:#0162ff;
+    color: white;;;;;;;;;;;;;;;;;;;
+    padding: 10px;;;;;;;;;;;;;;;;;;;;
+    border-radius:5px ;;;;;;;;;;;;;;;;;;;
+    margin-left: 20px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+}
+.new-delhiishu{
+    font-weight: 100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    font-size: small;;;;;;;;;;;;;;;;;;;;
+}
+
+
+
+
+
+.container-mainishu{
+    display: flex;
+    flex-direction: row;;;;;;;;;;;;;;
+    margin-top: 20px;;;;;;;;;;;;;;
+    margin-bottom: 100px;;;;;;;;;;;;;;;;
+}
+
+.left-menuishu{
+    width: 80%;;
+    margin-left: 30px;;;;;;;;;;;;;;;;;
+    display: flex;
+    flex-direction: column;;;;;;;;;;;;;;;;;;;;;
+    margin-right: 30px;
+}
+.left-menu-searchishu{
+    margin: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: hsl(215, 100%, 81%);
+}
+.checkboxishu{
+    display: inline;
+}
+.left-menu-subdivishu{
+    display: flex;
+    margin-top:20px;;;;;;;;;;;
+    flex-direction: column;;;;;;;;;;;;;
+    margin-left: 10px;
+}
+.create-job-alert-buttonishu{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #0162ff;
+    padding: 8px 22px 11px 24px;
+    text-decoration: none;
+}
+.create-job-alert-button:hoverishu{
+    background: #3cb0fd;;;;;;;;;;;;;
+        text-decoration: none;
+}
+.container-right-threeishu{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;;;;;;;;;;;;;;
+}
+.container-right-three-subdivishu{
+    margin-right: 5px;;;;;;;;;;;;;
+    font-size: 10px;;;;;;;;;;;;
+    background-color: hwb(204 74% 2%);
+    padding: 4px;
+    border-radius: 3px;
+    color: #0162ff;
+    font-weight: 500;
+}
+.create-job-alert-textishu{
+    font-size: small;
+    font-weight: 700;
+}
+.create-job-alert-paraishu{
+    font-size: small;
+    font-weight: 400;
+    color: #424242;
+}
+
+
+
+.container-right-mainishu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-right-subdivishu{
+    width: 33%;
+    margin-bottom: 30px;
+}
+.Applyishu{
+    margin-right: 10px;
+    -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #0162ff;
+  padding: 8px 22px 11px 24px;
+  text-decoration: none;
+}
+.Apply:hoverishu{
+        background: #3cb0fd;
+        text-decoration: none;
+
+}
+.Messageishu{
+    margin-right: 10px;
+    -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 12px;
+  background: lightgrey;
+  padding: 8px 22px 11px 24px;
+  text-decoration: none;
+}
+.right-imageishu{
+    width:30px
+}
+.right-para-subdivishu{
+    color: grey;
+    font-size: small;
+}
+
+
+label{
+    font-weight: 200;
+    color: grey;
+    font-size: small;
+}
+    </style>
+</head>
+<body>
+
+
+
+    <nav class = "navbarishu">
+
+            <div class="navbar-leftishu">
+                <img src="logo.png" alt="" class="nav-logo-leftishu"><span class="nav-logo-name-leftishu">Milao</span>
+            </div>
+
+            <div class="navbar-centerishu">
+                <ul class="nav-ulishu">
+                    <li class="nav-linkishu">Search Narukari</li>
+                    <li class="nav-linkishu">Company Review</li>
+                    <li class="nav-linkishu">Find Salaries</li>
+                </ul>
+            </div>
+
+            <div class="navbar-rightishu">
+                <img src="moon.png" alt="" class="nav-logo-rightishu">|
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3364143/download+%283%29+%281%29.png" alt="" class="nav-logo-rightishu"><span class="nav-logo-name-rightishu">JohnDoe</span>
+            </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class = "navbar2ishu">
+
+            <div class="navbar2-div1ishu">🔍
+                <div class="navbar2-div1-div1ishu"><span class="product-designingishu">Product Designing x</span></div>
+                <div class="navbar2-div1-div1ishu"><span class="product-designingishu">UI Desinger x</span></div>
+            </div>
+
+            <div class="navbar2-divishu"><span class="new-delhiishu">📍New Delhi,India</span></div>
+
+            <div class="navbar2-divishu"><span class="new-delhiishu">🕵🏻Job Type</span></div>
+
+            <div class="navbar2-divishu"><span class="new-delhiishu">💰Salary Range</span><span class="find-jobishu">Find Job</span></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-mainishu">
+
+        <div class="left-menuishu">
+
+
+
+            <!-- left menu start -->
+            <div class="left-menu-searchishu"><br><span class="create-job-alert-textishu">Create Job Alert</span><br><br><p class="create-job-alert-paraishu">Create a job alert and <br> never miss a job</p><br><input type="text" class="create-job-alert-searchishu" placeholder="Enter job Keyword"><br><br><button class="create-job-alert-buttonishu">Create Job Alert</button><br><br></div>
+            <div class="left-menu-subdivishu">
+                <h4 class="left-menu-h4ishu">Type of Employement</h4>
+                <input type="checkbox" class="checkboxishu" name="c1"><label for="c1">Full Time Job</label>
+                <input type="checkbox" class="checkboxishu" name="c2"><label for="c2">Part Time Job</label>
+                <input type="checkbox" class="checkboxishu" name="c3"><label for="c3">Remote Job</label>
+                <input type="checkbox" class="checkboxishu" name="c4"><label for="c4">Internship Jobs</label>
+                <input type="checkbox" class="checkboxishu" name="c5"><label for="c5">Contract</label>
+                <input type="checkbox" class="checkboxishu" name="c6"><label for="c6">Training Jobs</label>
+            </div>
+            <div class="left-menu-subdivishu">
+                <h4 class="left-menu-h4ishu">Seniority Level</h4>
+                <input type="checkbox" class="checkboxishu" name="c7"><label for="c7">Student Level</label>
+                <input type="checkbox" class="checkboxishu" name="c8"><label for="c8">Entry Level</label>
+                <input type="checkbox" class="checkboxishu" name="c9"><label for="c9">Mid Level</label>
+                <input type="checkbox" class="checkboxishu" name="c10"><label for="c10">Senior Level</label>
+                <input type="checkbox" class="checkboxishu" name="c11"><label for="c11">Director</label>
+                <input type="checkbox" class="checkboxishu" name="c12"><label for="c12">Vp</label>
+            </div>
+            <div class="left-menu-subdivishu">
+                <h4 class="left-menu-h4ishu">Salary Range</h4>
+                <input type="checkbox" class="checkboxishu" name="c13"><label for="c13">$700-$1000</label>
+                <input type="checkbox" class="checkboxishu" name="c14"><label for="c14">$1000-$1200</label>
+                <input type="checkbox" class="checkboxishu" name="c15"><label for="c15">$1200-$1400</label>
+                <input type="checkbox" class="checkboxishu" name="c16"><label for="c16">$1500-$1800</label>
+                <input type="checkbox" class="checkboxishu" name="c17"><label for="c17">$2000-$3000</label>
+                <input type="checkbox" class="checkboxishu" name="c18"><label for="c18">$3000-$4000</label>
+            </div>
+        </div>
+        <!-- Left Menu end -->
+
+
+
+
+
+
+
+
+
+        <!-- 9 div container start -->
+
+        <div class="container-right-mainishu">
+            <div class="container-right-subdivishu"> 
+                <img src="dropbox.png" alt="" class="right-imageishu"><br><br>
+                <h4>UI/Ux Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu" > 
+                <img src="airbnb.png" alt="" class="right-imageishu"><br><br>
+                <h4>Sr. Product Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="messenger.png" alt="" class="right-imageishu"><br><br>
+                <h4>User Experience Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="whatsapp.png" alt="" class="right-imageishu"> <br><br>
+                <h4>Product Desinger</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="whatsapp.png" alt="" class="right-imageishu"><br><br>
+                <h4>UI/Ux Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="facebook.png" alt="" class="right-imageishu"><br><br>
+                <h4>Ui Developer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="twitter.png" alt="" class="right-imageishu"><br><br>
+                <h4>User Interface Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="whatsapp.png" alt="" class="right-imageishu"><br><br>
+                <h4>UI/ux Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+            <div class="container-right-subdivishu"> 
+                <img src="whatsapp.png" alt="" class="right-imageishu"><br><br>
+                <h4>UX Designer</h4><br><br>
+                <p class="right-para-subdivishu">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Fugit, perferendis rerum! Maxime quaerat <br> molestiae pariatur, laudantium odio nostrum nulla fugit.</p><br>
+                <br><div class="container-right-threeishu">
+                    <div class="container-right-three-subdivishu">Full Time</div>
+                    <div class="container-right-three-subdivishu">Min 1 Year</div>
+                    <div class="container-right-three-subdivishu">Senior Level</div>
+                </div>
+                <button class="Applyishu">Apply Now</button><button class="Messageishu">Message</button>
+            </div>
+        </div>
+
+
+        <!-- 9div container end -->
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
